@@ -1,16 +1,16 @@
 #include<stdio.h>
 int main()
 {
-	int mark;
+	int marks;
 	printf("Enter Marks:");
-	scanf("%d",&mark);    //Getting Mark from the user in the range of 100
-	if(mark>=85 && mark<=100)
+	scanf("%d",&marks);    //Getting Mark from the user in the range of 100
+	if(marks>=85 && marks<=100)
 		printf("Grade A");
-	else if(mark>=70 && mark<=84)
+	else if(marks>=70 && marks<=84)
 		printf("Grade B");
-	else if(mark>=55 && mark<=69)
+	else if(marks>=55 && marks<=69)
 		printf("Grade C");
-	else if(mark>=40 && mark<=54)
+	else if(marks>=40 && marks<=54)
 		printf("Grade D");
 	else
 		printf("Grade F");
