@@ -24,7 +24,7 @@ int main()
 			break;
 		case 5:
 			printf("\nFood item - Special Veg Biryani");
-			printf("\nPrice - 149");
+			printf("\nPrice - 139");
 			break;
 		default:
 			printf("option is invalid");
