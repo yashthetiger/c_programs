@@ -3,7 +3,7 @@ int main()
 {
 	int n;
 	int i,j;
-	printf("Enter no of stairs:");
+	printf("Enter number of stairs:");
 	scanf("%d",&n);
 	for(i=0;i<n;i++)
 	{
