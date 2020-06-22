@@ -10,9 +10,11 @@ struct employee
 };
 void display(struct employee e)
 {
+	printf("%d\t",e.empid);
 	printf("%s\t",e.emp_name);
 	printf("%d\t",e.age);
 	printf("%s\t",e.phone_number);
+	printf("%s\t",e.department);
 	printf("%d\t",e.salary);
 }
 int main()
@@ -37,7 +39,7 @@ int main()
 		printf("Enter Salary:");
 		scanf("%d",&emp[i].salary);
 	}
-	printf("Name\tAge\tPhone Number\tSalary");
+	printf("Emp_Id\tName\tAge\tPhone Number\tDepartment\tSalary");
 	for(i=0;i<n;i++)
 	{
 		printf("\n");
