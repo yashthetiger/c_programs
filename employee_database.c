@@ -14,8 +14,8 @@ void display(struct employee e)
 	printf("%s\t",e.emp_name);
 	printf("%d\t",e.age);
 	printf("%s\t",e.phone_number);
-	printf("%s\t",e.department);
 	printf("%d\t",e.salary);
+	printf("%s\t",e.department);
 }
 int main()
 {
