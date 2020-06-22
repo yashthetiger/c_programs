@@ -39,7 +39,7 @@ int main()
 		printf("Enter Salary:");
 		scanf("%d",&emp[i].salary);
 	}
-	printf("Emp_Id\tName\tAge\tPhone Number\tDepartment\tSalary");
+	printf("Emp_Id\tName\tAge\tPhone Number\tSalary\tDepartment");
 	for(i=0;i<n;i++)
 	{
 		printf("\n");
